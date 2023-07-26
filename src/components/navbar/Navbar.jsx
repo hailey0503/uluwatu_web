@@ -2,7 +2,7 @@
 import React from 'react';
 import Link from "next/link";
 import styles from "./navbar.module.css";
-//import DarkModeToggle from "../DarkModeToggle/DarkModeToggle";
+import DarkMode from "../darkMode/darkMode";
 //import { signOut, useSession } from "next-auth/react";
 
 
@@ -47,7 +47,7 @@ const Navbar = () => {
 	  uluwatu
 	</Link>
 	<div className={styles.links}>
-	
+	<DarkMode />
 	  {links.map((link) => (
 		<Link key={link.id} href={link.url} className={styles.link}>
 		  {link.title}

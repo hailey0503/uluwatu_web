@@ -5,15 +5,16 @@
 }
 
 .item {
-  flex: 1;
+  flex: 2;
   display: flex;
   flex-direction: column;
   gap: 50px;
 }
 
+
 .title {
-  font-size: 72px;
-  background: linear-gradient(to bottom, #194c33, #bbb);
+  font-size: 68px;
+  background: linear-gradient(to bottom, #6096B4, #DAF5FF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -22,9 +23,23 @@
   width: 100%;
   height: 500px;
   object-fit: contain;
+  opacity: 0.8;
   /* animation: move 3s infinite ease alternate; */
 }
 
+.description {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.button {
+  padding: 15px;
+  cursor: pointer;
+  background-color: #FEFF86;
+  border: none;
+  border-radius: 5px;
+  width: max-content;
+}
 @keyframes move {
   from {
     transform: translateY(-10px);
@@ -35,7 +50,3 @@
 }
 
 
-.desc {
-  font-size: 24px;
-  font-weight: 300;
-}
