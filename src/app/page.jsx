@@ -10,9 +10,8 @@ export default function Home() {
 			<div className={styles.container}>
 				<div className={styles.item}>
 					
-						<h1 className={styles.title}>Widsith spoke, and unlocked his word-hoard</h1>
-						<p className={styles.description}>he who had fared through most of the men,
-							peoples, and nations on earth.</p>
+						<h1 className={styles.title}>Bringing Virtual Worlds to Life: Your AI-Powered Reality</h1>
+						<p className={styles.description}>"Sculpting Digital Imagination into Tangible Experiences"</p>
 						<button  url="/portfolio" className={styles.button}>See works</button>
 					
 				</div>

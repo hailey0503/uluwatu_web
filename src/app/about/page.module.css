@@ -1,0 +1,21 @@
+/* About section styles */
+.about {
+	padding: 80px 0;
+	text-align: center;
+	
+  }
+  
+  .about h2 {
+	font-size: 28px;
+	margin-bottom: 20px;
+	color: #3f92e5;
+  }
+  
+  .about p {
+	font-size: 16px;
+	color: #acc4ee;
+	line-height: 1.6;
+	max-width: 800px;
+	margin: 0 auto;
+  }
+  

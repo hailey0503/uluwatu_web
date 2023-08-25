@@ -6,7 +6,7 @@ import { notFound } from "next/navigation"
 
 async function getData(id) {
 
-    const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`, { //get id from prop
+    const res = await fetch(`https://jsonplaceholder.typicode.com/photos/${id}`, { //get id from prop
       cache: "no-store",
     });
   
@@ -23,7 +23,17 @@ const Blog = async ({params}) => {
   return (
     <div className={styles.mainContainer}>
       <h1 className={styles.title}>{data.title}</h1>
+      {console.log(data)}
+      <Image
+              src={data.url}
+              alt=""
+              width={400}
+              height={250}
+              className={styles.image}
+             
+            />
     </div>
+    
   )
 }
 export default Blog;

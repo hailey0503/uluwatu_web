@@ -7,10 +7,11 @@ import Image from "next/image"
 import { notFound } from "next/navigation"
 
 const Dashboard = () => {
+	/*
 	const [data, err, isLoading] = useSWR('')
 	
 	
-/*
+
 	useEffect(()=>{  use SWR instead of useEffect!!! b/c it cache your data and revalidate
 		const getData = async () => {
 			setIsLoading(true)
