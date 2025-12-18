@@ -3,7 +3,7 @@
 import React, { useContext } from "react";
 import styles from "./darkMode.module.css";
 import { ThemeContext } from "../../../context/ThemeContext";
-const darkMode =() => {
+const DarkMode =() => {
 
 	const {toggle, mode} = useContext(ThemeContext)
 	return (
@@ -18,4 +18,4 @@ const darkMode =() => {
 	
 }
 
-export default darkMode
+export default DarkMode
